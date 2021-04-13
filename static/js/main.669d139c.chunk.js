@@ -1,0 +1,2 @@
+(this["webpackJsonpquestion-editor"]=this["webpackJsonpquestion-editor"]||[]).push([[0],{11:function(t,e,n){"use strict";n.r(e);var o=n(1),i=n.n(o),c=n(3),r=n.n(c),s=(n(8),n(9),n(0));var u=function(){return Object(s.jsx)("div",{children:"RS School Question editor"})};r.a.render(Object(s.jsx)(i.a.StrictMode,{children:Object(s.jsx)(u,{})}),document.getElementById("root"))},8:function(t,e,n){},9:function(t,e,n){}},[[11,1,2]]]);
+//# sourceMappingURL=main.669d139c.chunk.js.map
