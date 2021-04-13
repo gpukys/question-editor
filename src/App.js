@@ -2,7 +2,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>RS School Question generator</div>
+    <div>RS School Question editor</div>
   );
 }
 
