@@ -1,0 +1,12 @@
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.main-input {
+  min-height: 200px;
+  height: calc(100% - 64px) !important;
+  width: 100%;
+  max-width: 800px !important;
+  margin-bottom: 16px;
+}

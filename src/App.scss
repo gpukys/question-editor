@@ -1,0 +1,11 @@
+@import 'helpers';
+
+header {
+  margin-bottom: 32px;
+}
+
+.control-container {
+  >*{
+    margin-right: 16px;
+  }
+}

@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "http://gpukys.github.io/question-editor",
   "dependencies": {
+    "@blueprintjs/core": "^3.42.0",
+    "node-sass": "^5.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3"
