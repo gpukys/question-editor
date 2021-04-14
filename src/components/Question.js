@@ -130,8 +130,10 @@ const Question = (props) => {
       const idx = copy.answers.findIndex(e => e === currAns)
       if (idx > -1) {
         setCorrectAnswers([idx])
-      } else {
+      } else if (copy.answers.length > 0) {
         setCorrectAnswers([0])
+      } else {
+        setCorrectAnswers([])
       }
     }
   };
@@ -146,6 +148,8 @@ const Question = (props) => {
         onClose={handleClose}
         title='Edit question'
         isOpen={isOpen}
+        canOutsideClickClose={false}
+        canEscapeKeyClose={false}
       >
         <div className={Classes.DIALOG_BODY}>
           <h2>
